@@ -15,9 +15,9 @@ help-distrib::
 # Where to get tools from, and where to store them into
 # The tools are: config.guess and config.sub
 
-CONFIG_SUB_SRC="https://raw.githubusercontent.com/risqcapital/gnu-config-mirror/refs/heads/main/config.sub"
+CONFIG_SUB_SRC="https://raw.githubusercontent.com/Sighery/gnu-config-mirror/refs/heads/master/config.sub"
 CONFIG_SUB_DEST=scripts/config.sub
-CONFIG_GUESS_SRC="https://raw.githubusercontent.com/risqcapital/gnu-config-mirror/refs/heads/main/config.guess"
+CONFIG_GUESS_SRC="https://raw.githubusercontent.com/Sighery/gnu-config-mirror/refs/heads/master/config.guess"
 CONFIG_GUESS_DEST=scripts/config.guess
 
 PHONY += updatetools
